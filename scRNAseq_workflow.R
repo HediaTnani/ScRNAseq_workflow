@@ -91,7 +91,6 @@ combined<- RunHarmony(object = combined,
                       group.by.vars = "orig.ident",
                       plot_convergence = TRUE)
 combined <- RunUMAP(object = combined, assay = "SCT", reduction = "harmony", dims = 1:30)
-options(future.globals.onReference = "ignore")
 combined <- FindNeighbors(object = combined, assay = "SCT", reduction = "harmony", dims = 1:30)
 combined <- FindClusters(object = combined, resolution = 0.5)
 combined <- RunTSNE(combined, dims = 1:30)
