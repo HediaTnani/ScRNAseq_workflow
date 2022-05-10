@@ -1,9 +1,8 @@
 # Example sensitive resistant from public data 
-library(devtools)
-require(Seurat)
-require(tidyverse)
-require(magrittr)
-require(future)
+library(Seurat)
+library(tidyverse)
+library(magrittr)
+library(future)
 library(stringr)
 library(harmony)
 #options(future.globals.maxSize = 891289600)
