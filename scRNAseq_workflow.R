@@ -1,4 +1,4 @@
-# Example sensitive resistant from public data 
+# Example sensitive resistant scRNAseq data analysis from public data 
 library(Seurat)
 library(tidyverse)
 library(magrittr)
